@@ -3,22 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jacob Andrew Kelley - Personal website featuring contact information, resume, and curated resources on privacy, security, networking, open-source software, and personal finance.">
+    <meta name="keywords" content="Jacob Kelley, privacy, security, networking, self-hosted, open source, personal finance">
+    <meta name="author" content="Jacob Andrew Kelley">
+    
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Jacob Andrew Kelley">
+    <meta property="og:description" content="Personal website with curated tech resources and recommendations">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jake-kelley.github.io/">
+    
     <title>Jacob Andrew Kelley</title>
+    
+    <!-- Favicon (prevents 404 requests) -->
+    <link rel="icon" href="data:,">
+    
     <style>
+        /* Base Styles */
         body {
             margin: 1% auto;
             max-width: 90%;
-            font-family: Helvetica, sans-serif;
+            font-family: Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
         }
 
+        /* Horizontal Rules */
         hr {
-            margin: 2em 0%;
+            margin: 2em 0;
+            border: none;
+            border-top: 1px solid #ddd;
         }
 
+        /* Indented Paragraphs */
         p.indent {
             margin-left: 1.5em;
         }
 
+        /* Profile Image */
         img {
             width: 25%;
             max-width: 15em;
@@ -26,74 +48,129 @@
             float: right;
             border-radius: 50%;
         }
+
+        /* Links */
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Headings */
+        h1 {
+            margin-top: 0;
+        }
+
+        h2 {
+            margin-top: 1.5em;
+        }
+
+        /* Section Spacing */
+        section {
+            margin-bottom: 2em;
+        }
     </style>
 </head>
 <body>
-    <img src="profile.jpg" alt="jake-kelley">
-    <h1>Jacob Andrew Kelley</h1>
-        <hr>
+    <!-- Header Section -->
+    <header>
+        <picture>
+            <source srcset="profile.webp" type="image/webp">
+            <img src="profile.jpg" alt="Profile photo of Jacob Andrew Kelley" width="240" height="240">
+        </picture>
+        <h1>Jacob Andrew Kelley</h1>
+    </header>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <section aria-label="Contact Information">
         <p>
             <strong>Contact</strong>
         </p>
         <p class="indent">
-            Email <a href="mailto:jake.kelley@protonmail.com">jake.kelley@protonmail.com</a><br />
-            LinkedIn <a href="https://www.linkedin.com/in/jakekelley41/">jakekelley41</a>
+            Email <a href="mailto:jake.kelley@protonmail.com" rel="noopener noreferrer">jake.kelley@protonmail.com</a><br>
+            LinkedIn <a href="https://www.linkedin.com/in/jakekelley41/" target="_blank" rel="noopener noreferrer">jakekelley41</a>
         </p>
+    </section>
+
+    <!-- Resume Section -->
+    <section aria-label="Resume">
         <p>
             <strong>Resume</strong>
         </p>
         <p class="indent">
-            <a href="resume/jake-kelley-resume.pdf">PDF</a><br />
-            <a href="https://github.com/jkelley41/jkelley41.github.io/blob/main/resume/resume.html">HTML</a>
+            <a href="resume/jake-kelley-resume.pdf" rel="noopener noreferrer">PDF</a><br>
+            <a href="https://github.com/jkelley41/jkelley41.github.io/blob/main/resume/resume.html" target="_blank" rel="noopener noreferrer">HTML</a>
         </p>
-    
-        <hr>
+    </section>
 
+    <hr>
+
+    <!-- Recommended Material Section -->
+    <section aria-label="Recommended Material">
         <h2>Recommended Material</h2>
         <p>
-            <em>A curated list of useful reads, reference material, or tools.</em>
-        </p>
-        <p>
-            <strong>Privacy & Security</strong>
-        </p>
-        <p class="indent">
-            <a href="https://www.privacyguides.org/">Privacy Guides</a><br />
-            <a href="https://github.com/pluja/awesome-privacy">awesome-privacy</a><br />
-            <a href="https://proton.me/">Proton Mail</a><br />
-            <a href="https://bitwarden.com/">BitWarden Password Manager</a><br />
-            <a href="https://docs.google.com/spreadsheets/d/1ijfqfLrJWLUVBfJZ_YalVpstWsjw-JGzkvMd6u2jqEk/edit?pli=1&gid=231869418#gid=231869418">VPN Comparison Table</a>
+            <em>A curated list of useful reads, reference material, and tools.</em>
         </p>
 
-        <p>
-            <strong>Networking</strong>
-        </p>
-        <p class="indent">
-            <a href="https://tailscale.com/">Tailscale</a><br />
-            <a href="https://opnsense.org/">OPNsense</a><br />
-            <a href="https://adguard.com/en/adguard-home/overview.html?ref=selfh.st">AdGuard Home</a>
-        </p>
+        <!-- Privacy & Security -->
+        <article>
+            <p>
+                <strong>Privacy &amp; Security</strong>
+            </p>
+            <p class="indent">
+                <a href="https://www.privacyguides.org/" target="_blank" rel="noopener noreferrer">Privacy Guides</a><br>
+                <a href="https://github.com/pluja/awesome-privacy" target="_blank" rel="noopener noreferrer">awesome-privacy</a><br>
+                <a href="https://proton.me/" target="_blank" rel="noopener noreferrer">Proton Mail</a><br>
+                <a href="https://bitwarden.com/" target="_blank" rel="noopener noreferrer">BitWarden Password Manager</a><br>
+                <a href="https://docs.google.com/spreadsheets/d/1ijfqfLrJWLUVBfJZ_YalVpstWsjw-JGzkvMd6u2jqEk/edit?pli=1&gid=231869418#gid=231869418" target="_blank" rel="noopener noreferrer">VPN Comparison Table</a>
+            </p>
+        </article>
 
-        <p>
-            <strong>OSS and Self-Hosted</strong>
-        </p>
-        <p class="indent">
-            <a href="https://itsfoss.com/">IT'S FOSS</a><br />
-            <a href="https://selfh.st/apps/?">selfh.st</a><br />
-            <a href="https://awesome-selfhosted.net/">Awesome-Selfhosted</a><br />
-            <a href="https://unraid.net/">Unraid</a><br />
-            <a href="https://www.linuxserver.io/">linuxserver.io</a><br />
-            <a href="https://www.proxmox.com/en/products/proxmox-virtual-environment/overview">Proxmox Virtual Environment (VE)</a><br />
-            <a href="https://community-scripts.github.io/ProxmoxVE/">Proxmox VE Helper-Scripts</a>
-        </p>
+        <!-- Networking -->
+        <article>
+            <p>
+                <strong>Networking</strong>
+            </p>
+            <p class="indent">
+                <a href="https://tailscale.com/" target="_blank" rel="noopener noreferrer">Tailscale</a><br>
+                <a href="https://opnsense.org/" target="_blank" rel="noopener noreferrer">OPNsense</a><br>
+                <a href="https://adguard.com/en/adguard-home/overview.html?ref=selfh.st" target="_blank" rel="noopener noreferrer">AdGuard Home</a>
+            </p>
+        </article>
 
-        <p>
-            <strong>Personal Finance</strong>
-        </p>
-        <p class="indent">
-            <a href="https://www.goodreads.com/book/show/40591670-i-will-teach-you-to-be-rich">I Will Teach You to be Rich</a> - <em>Ramit Sethi</em><br />
-            <a href="https://www.ramseysolutions.com/budgeting/how-to-make-a-zero-based-budget">Zero-Based Budgeting</a> - <em>George Kamel</em><br />
-            <a href="https://www.monarchmoney.com/">Monarch Money</a><br />
-            <a href="https://copilot.money/">Copilot Money</a><br />
-        </p>
+        <!-- OSS and Self-Hosted -->
+        <article>
+            <p>
+                <strong>OSS and Self-Hosted</strong>
+            </p>
+            <p class="indent">
+                <a href="https://itsfoss.com/" target="_blank" rel="noopener noreferrer">IT'S FOSS</a><br>
+                <a href="https://selfh.st/apps/?" target="_blank" rel="noopener noreferrer">selfh.st</a><br>
+                <a href="https://awesome-selfhosted.net/" target="_blank" rel="noopener noreferrer">Awesome-Selfhosted</a><br>
+                <a href="https://unraid.net/" target="_blank" rel="noopener noreferrer">Unraid</a><br>
+                <a href="https://www.linuxserver.io/" target="_blank" rel="noopener noreferrer">linuxserver.io</a><br>
+                <a href="https://www.proxmox.com/en/products/proxmox-virtual-environment/overview" target="_blank" rel="noopener noreferrer">Proxmox Virtual Environment (VE)</a><br>
+                <a href="https://community-scripts.github.io/ProxmoxVE/" target="_blank" rel="noopener noreferrer">Proxmox VE Helper-Scripts</a>
+            </p>
+        </article>
+
+        <!-- Personal Finance -->
+        <article>
+            <p>
+                <strong>Personal Finance</strong>
+            </p>
+            <p class="indent">
+                <a href="https://www.goodreads.com/book/show/40591670-i-will-teach-you-to-be-rich" target="_blank" rel="noopener noreferrer">I Will Teach You to be Rich</a> - <em>Ramit Sethi</em><br>
+                <a href="https://www.ramseysolutions.com/budgeting/how-to-make-a-zero-based-budget" target="_blank" rel="noopener noreferrer">Zero-Based Budgeting</a> - <em>George Kamel</em><br>
+                <a href="https://www.monarchmoney.com/" target="_blank" rel="noopener noreferrer">Monarch Money</a><br>
+                <a href="https://copilot.money/" target="_blank" rel="noopener noreferrer">Copilot Money</a>
+            </p>
+        </article>
+    </section>
 </body>
 </html>
