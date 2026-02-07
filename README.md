@@ -11,7 +11,8 @@ Personal website featuring contact information, resume, and curated resources on
 ├── resume/
 │   ├── resume.html     # HTML resume (print-optimized)
 │   └── jake-kelley-resume.pdf
-└── profile.webp        # Profile image
+├── profile.webp        # Profile image
+└── favicon.ico         # Site favicon
 ```
 
 ## Resume
