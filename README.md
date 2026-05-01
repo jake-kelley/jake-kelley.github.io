@@ -22,5 +22,6 @@ Personal website featuring contact information, resume, and curated resources on
 
 ## Contact
 
-📧 [jake.kelley@protonmail.com](mailto:jake.kelley@protonmail.com)  
-💼 [LinkedIn](https://www.linkedin.com/in/jakekelley41/)
+📧 [jake.kelley@pm.me](mailto:jake.kelley@pm.me)  
+💼 [LinkedIn](https://www.linkedin.com/in/jakekelley1/)  
+🐙 [GitHub](https://github.com/jake-kelley)
