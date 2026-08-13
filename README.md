@@ -18,7 +18,7 @@ Personal website featuring contact information, resume, and curated resources on
 ## Resume
 
 📄 [PDF](https://jake-kelley.github.io/resume/jake-kelley-resume.pdf)  
-🌐 [HTML](https://github.com/jake-kelley/jake-kelley.github.io/blob/main/resume/resume.html)
+🌐 [HTML](https://jake-kelley.github.io/resume/resume.html)
 
 ## Contact
 
