@@ -34,25 +34,25 @@
             align-items: flex-end;
             margin: 0;
             font-variant: small-caps;
-            font-size: 26px;
+            font-size: 25px;
         }
 
         h2 {
-            margin-top: 22px;
+            margin-top: 17px;
             margin-bottom: 1px;
             font-variant: small-caps;
-            font-size: 18px;
+            font-size: 17px;
         }
 
         p {
-            margin-top: 8px;
-            margin-bottom: 8px;
-            font-size: 10.75px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 10.5px;
         }
 
         /* Header Contact Info */
         .contact-info {
-            font-size: 11px;
+            font-size: 10.5px;
             font-variant: normal;
             margin-bottom: 4px;
         }
@@ -65,16 +65,19 @@
         /* Date Spans */
         span {
             float: right;
-            font-size: 11px;
+            font-size: 10.5px;
         }
 
         /* Lists */
         ul {
             margin-top: 0;
+            margin-bottom: 0;
+            padding-left: 20px;
         }
 
         li p {
-            margin-bottom: 5px;
+            margin-top: 0;
+            margin-bottom: 3px;
         }
 
         /* Dividers */
@@ -93,7 +96,7 @@
 
             .experience-entry {
                 page-break-inside: avoid;
-                margin-top: 8px;
+                margin-top: 6px;
             }
         }
     </style>
@@ -104,13 +107,17 @@
             <span class="contact-info">
                 <a href="mailto:jake.kelley@pm.me">jake.kelley@pm.me</a> |
                 678-628-8538 |
-                <a href="https://linkedin.com/in/jakekelley41">linkedin.com/in/jakekelley1</a> |
+                <a href="https://linkedin.com/in/jakekelley1">linkedin.com/in/jakekelley1</a> |
                 <a href="https://jake-kelley.github.io/">jake-kelley.github.io</a>
             </span>
         </h1>
         <hr>
         <p>
-            Cloud Security Engineering Manager and privacy advocate. Technical leader and hands-on builder driven by results, impact, and a mindset for analysis and optimization. Experimenter. Homelabber.
+            Security Architect and privacy advocate. Technical leader and hands-on builder working in DoD security
+            engineering since 2015, currently architecting a large secure cloud environment and the 1,000+ workloads
+            within it. Spans cloud security architecture (IAM/RBAC, Zero Trust, hybrid and multi-cloud network design),
+            detection and SIEM engineering via Infrastructure-as-Code, and NIST 800-53 / RMF compliance depth &mdash;
+            while leading and mentoring the engineers doing it. ISC2 CISSP, MBA, active DoD Top Secret clearance.
         </p>
 
         <!-- Skills -->
@@ -118,7 +125,7 @@
         <hr>
         <p>
             <em>Certifications and Clearances:</em>
-            ISC2 CISSP, CompTIA Security+, RedHatCSA, Splunk PU, DoD Top Secret Clearance
+            ISC2 CISSP, CompTIA Security+, RedHat CSA, Splunk PU, DoD Top Secret Clearance
         </p>
         <p>
             <em>Leadership:</em>
@@ -137,11 +144,13 @@
         </p>
         <p>
             <em>Security Monitoring &amp; Data Analytics:</em>
-            SIEM (Splunk), Network Traffic Monitoring, Cloud Tools (AWS GuardDuty, CloudTrail, Microsoft Defender, Flow Logs)
+            SIEM, Detection Rule Authoring &amp; Tuning, Network Traffic Monitoring, EDR (Microsoft Defender for Endpoint),
+            Cloud Tools (AWS GuardDuty, CloudTrail, Microsoft Defender, Flow Logs)
         </p>
         <p>
             <em>Application &amp; Supply Chain Security:</em>
-            Secret Scanning, SBOM Generation, Container Package Scanning, Code Analysis &amp; Security Impact Reviews
+            Secret Scanning, SBOM Generation, Container Package Scanning, Code Analysis &amp; Security Impact Reviews,
+            CI/CD Pipeline Security (merge-gated scan enforcement)
         </p>
         <p>
             <em>Security &amp; Data Frameworks:</em>
@@ -149,40 +158,57 @@
         </p>
         <p>
             <em>Languages:</em>
-            Powershell, Bash, Batch, Python, Ansible, Terraform, HTML, CSS, Markdown
+            PowerShell, Bash, Batch, Python, SPL, SQL, Ansible, Terraform, HTML, CSS, Markdown
         </p>
         <p>
             <em>Cloud and Virtualization:</em>
-            AWS, Azure, Hyper-V, ProxMox (KVM), VMware, Docker
+            AWS, Azure, Kubernetes (working knowledge), Hyper-V, ProxMox (KVM), VMware, Docker
         </p>
 
         <!-- Experience -->
         <h2>Experience</h2>
         <hr>
 
-        <!-- AFS -->
+        <!-- AFS - Security Architect -->
         <div class="experience-entry">
             <p>
-                <em>Cloud Security Engineering Manager</em> <span>March 2022 - Present</span>
+                <em>Security Architect</em> <span>July 2026 - Present</span>
                 <br>
                 Accenture Federal Services - Salt Lake City, UT
             </p>
             <ul>
-                <li><p>Serve as Cloud Security Engineering Manager,
+                <li><p>Serve as Security Architect for a large DoD secure cloud environment, providing security
+                engineering and architecture to both the environment itself and 1,000+ workloads within it</p></li>
+                <li><p>Design and secure hybrid and multi-cloud network architectures spanning the environment&rsquo;s
+                cloud and on-premises workloads</p></li>
+                <li><p>Retain ownership of prior Cloud Security Engineering Manager scope in addition to expanded
+                architecture responsibilities</p></li>
+            </ul>
+        </div>
+
+        <!-- AFS - Cloud Security Engineering Manager -->
+        <div class="experience-entry">
+            <p>
+                <em>Cloud Security Engineering Manager</em> <span>March 2022 - July 2026</span>
+                <br>
+                Accenture Federal Services - Salt Lake City, UT
+            </p>
+            <ul>
+                <li><p>Served as Cloud Security Engineering Manager,
                 leading a team of security engineers on cloud security initiatives via agile
                 program management framework</p></li>
-                <li><p>Advise Architecture Review Board as Security SME on security practices and application design</p></li>
-                <li><p>Architect and implement security infrastructure including IAM and RBAC structure,
+                <li><p>Advised Architecture Review Board as Security SME on security practices and application design</p></li>
+                <li><p>Architected and implemented security infrastructure including IAM and RBAC structure,
                 hub-and-spoke network design, secret scanning and management, and integrated security tools
                 to improve logging, detection, and response capabilities</p></li>
-                <li><p>Guide review of Zero Trust network architectures for cloud deployments,
+                <li><p>Guided review of Zero Trust network architectures for cloud deployments,
                 implementing identity-centric access controls across AWS/Azure environments</p></li>
-                <li><p>Develop Infrastructure-as-Code (Terraform/Ansible) to deploy and operate SIEM platforms and log-ingestion pipelines, cloud capabilities, or hardening configurations</p></li>
-                <li><p>Lead deployments of secure virtual infrastructures and security tools 
+                <li><p>Developed Infrastructure-as-Code (Terraform/Ansible) to deploy and operate SIEM platforms and log-ingestion pipelines, cloud capabilities, or hardening configurations</p></li>
+                <li><p>Led deployments of secure virtual infrastructures and security tools
                 on various cloud and virtualization platforms for new and existing customers</p></li>
-                <li><p>Manage communications, expectations, and project scheduling between government sponsors,
+                <li><p>Managed communications, expectations, and project scheduling between government sponsors,
                 internal leadership, and engineering teams</p></li>
-                <li><p>Develop and refine security tools and procedures based on business needs</p></li>
+                <li><p>Developed and refined security tools and procedures based on business needs</p></li>
             </ul>
         </div>
 
@@ -225,7 +251,6 @@
             </ul>
         </div>
 
-        
         <!-- Education -->
         <h2>Education</h2>
         <hr>
