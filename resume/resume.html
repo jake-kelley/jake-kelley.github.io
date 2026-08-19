@@ -16,29 +16,34 @@
             margin: 0;
             padding: 0.18in 0.25in 0.25in 0.25in;
             width: 8.5in;
-            height: 11in;
             box-sizing: border-box;
         }
 
         .content {
             width: 100%;
-            height: 100%;
             box-sizing: border-box;
             background: white;
         }
 
         /* Typography */
         h1 {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
             margin: 0;
             font-variant: small-caps;
             font-size: 25px;
         }
 
+        p.contact-line {
+            margin: 2px 0 0 0;
+            font-size: 10.5px;
+        }
+
+        p.contact-line a {
+            color: inherit;
+            text-decoration: none;
+        }
+
         h2 {
-            margin-top: 17px;
+            margin-top: 16px;
             margin-bottom: 1px;
             font-variant: small-caps;
             font-size: 17px;
@@ -47,19 +52,7 @@
         p {
             margin-top: 5px;
             margin-bottom: 5px;
-            font-size: 10.5px;
-        }
-
-        /* Header Contact Info */
-        .contact-info {
-            font-size: 10.5px;
-            font-variant: normal;
-            margin-bottom: 4px;
-        }
-
-        .contact-info a {
-            color: inherit;
-            text-decoration: none;
+            font-size: 10.75px;
         }
 
         /* Date Spans */
@@ -96,37 +89,37 @@
 
             .experience-entry {
                 page-break-inside: avoid;
-                margin-top: 6px;
+                margin-top: 8px;
+            }
+
+            h2 {
+                page-break-after: avoid;
             }
         }
     </style>
 </head>
 <body>
     <div class="content">
-        <h1>Jacob Andrew Kelley
-            <span class="contact-info">
-                <a href="mailto:jake.kelley@pm.me">jake.kelley@pm.me</a> |
-                678-628-8538 |
-                <a href="https://linkedin.com/in/jakekelley1">linkedin.com/in/jakekelley1</a> |
-                <a href="https://jake-kelley.github.io/">jake-kelley.github.io</a>
-            </span>
-        </h1>
+        <h1>Jacob Andrew Kelley</h1>
+        <p class="contact-line">
+            Salt Lake City, UT |
+            <a href="mailto:jake.kelley@pm.me">jake.kelley@pm.me</a> |
+            678-628-8538 |
+            <a href="https://linkedin.com/in/jakekelley1">linkedin.com/in/jakekelley1</a> |
+            <a href="https://jake-kelley.github.io/">jake-kelley.github.io</a>
+        </p>
         <hr>
         <p>
             Security Architect and privacy advocate. Technical leader and hands-on builder working in DoD security
             engineering since 2015, currently architecting a large secure cloud environment and the 1,000+ workloads
-            within it. Spans cloud security architecture (IAM/RBAC, Zero Trust, hybrid and multi-cloud network design),
-            detection and SIEM engineering via Infrastructure-as-Code, and NIST 800-53 / RMF compliance depth &mdash;
-            while leading and mentoring the engineers doing it. ISC2 CISSP, MBA, active DoD Top Secret clearance.
+            within it. Spans hybrid and multi-cloud security architecture, detection and SIEM engineering via
+            Infrastructure-as-Code, and NIST 800-53 / RMF compliance depth - while leading and mentoring the
+            engineers doing it.
         </p>
 
         <!-- Skills -->
         <h2>Skills</h2>
         <hr>
-        <p>
-            <em>Certifications and Clearances:</em>
-            ISC2 CISSP, CompTIA Security+, RedHat CSA, Splunk PU, DoD Top Secret Clearance
-        </p>
         <p>
             <em>Leadership:</em>
             Team Management, Project Scheduling, Professional Development,
@@ -134,31 +127,35 @@
         </p>
         <p>
             <em>Security Architecture &amp; Operations:</em>
-            Security Control Selection &amp; Implementation, Vulnerability Assessments &amp; Risk Scoring, Continuous Monitoring, Network Design,
-            Threat Modeling (Architectural &amp; Data Flow), Active Directory &amp; Group Policy, Nessus, Splunk SIEM, Incident Alerting &amp; Response
+            Security Control Selection &amp; Implementation, Vulnerability Assessments &amp; Risk Scoring,
+            Continuous Monitoring (ConMon), Network Design, Threat Modeling (Architectural &amp; Data Flow),
+            Active Directory &amp; Group Policy, Nessus, Splunk SIEM, Incident Alerting &amp; Response
         </p>
         <p>
-            <em>Identity &amp; Access Management:</em>
-            AWS IAM, Azure AD, Multi-Factor Authentication (MFA), Zero Trust (ZTA) network design,
-            identity-centric access control architecture
+            <em>Identity and Access Management (IAM):</em>
+            AWS IAM, Azure AD, Multi-Factor Authentication (MFA), identity-centric access control architecture,
+            Zero Trust Architecture (ZTA) principles applied to network design
         </p>
         <p>
             <em>Security Monitoring &amp; Data Analytics:</em>
-            SIEM, Detection Rule Authoring &amp; Tuning, Network Traffic Monitoring, EDR (Microsoft Defender for Endpoint),
+            Security Information and Event Management (SIEM), Detection Rule Authoring &amp; Tuning,
+            Network Traffic Monitoring, Endpoint Detection and Response (EDR &mdash; Microsoft Defender for Endpoint),
             Cloud Tools (AWS GuardDuty, CloudTrail, Microsoft Defender, Flow Logs)
         </p>
         <p>
             <em>Application &amp; Supply Chain Security:</em>
-            Secret Scanning, SBOM Generation, Container Package Scanning, Code Analysis &amp; Security Impact Reviews,
-            CI/CD Pipeline Security (merge-gated scan enforcement)
+            Secret Scanning, Software Bill of Materials (SBOM) Generation, Container Package Scanning,
+            Code Analysis &amp; Security Impact Reviews, CI/CD Pipeline Security (merge-gated scan enforcement)
         </p>
         <p>
             <em>Security &amp; Data Frameworks:</em>
-            NIST 800-53, Risk Management Framework (RMF), CIS Controls, STRIDE, MITRE ATT&amp;CK, Splunk CIM, OCSF familiarity
+            NIST 800-53, Risk Management Framework (RMF), CIS Controls, STRIDE, MITRE ATT&amp;CK,
+            Splunk Common Information Model (CIM), Open Cybersecurity Schema Framework (OCSF) familiarity
         </p>
         <p>
             <em>Languages:</em>
-            PowerShell, Bash, Batch, Python, SPL, SQL, Ansible, Terraform, HTML, CSS, Markdown
+            PowerShell, Bash, Batch, Python, Go, Splunk Search Processing Language (SPL), SQL, Ansible,
+            Terraform, HTML, CSS, Markdown
         </p>
         <p>
             <em>Cloud and Virtualization:</em>
@@ -177,8 +174,9 @@
                 Accenture Federal Services - Salt Lake City, UT
             </p>
             <ul>
-                <li><p>Serve as Security Architect for a large DoD secure cloud environment, providing security
-                engineering and architecture to both the environment itself and 1,000+ workloads within it</p></li>
+                <li><p>Serve as Security Architect for a large DoD secure cloud environment spanning 100+ cloud
+                accounts and subscriptions, providing security engineering and architecture to both the environment
+                itself and the 1,000+ workloads within it</p></li>
                 <li><p>Design and secure hybrid and multi-cloud network architectures spanning the environment&rsquo;s
                 cloud and on-premises workloads</p></li>
                 <li><p>Retain ownership of prior Cloud Security Engineering Manager scope in addition to expanded
@@ -194,16 +192,19 @@
                 Accenture Federal Services - Salt Lake City, UT
             </p>
             <ul>
-                <li><p>Served as Cloud Security Engineering Manager,
-                leading a team of security engineers on cloud security initiatives via agile
-                program management framework</p></li>
-                <li><p>Advised Architecture Review Board as Security SME on security practices and application design</p></li>
+                <li><p>Served as Cloud Security Engineering Manager, leading a team of 12+ security engineers on
+                cloud security initiatives via agile program management framework; hired 8 of them</p></li>
+                <li><p>Advised Architecture Review Board as Security SME on security practices and application
+                design, across a minimum of two formal architecture reviews per month</p></li>
                 <li><p>Architected and implemented security infrastructure including IAM and RBAC structure,
                 hub-and-spoke network design, secret scanning and management, and integrated security tools
                 to improve logging, detection, and response capabilities</p></li>
-                <li><p>Guided review of Zero Trust network architectures for cloud deployments,
+                <li><p>Authored and tuned hundreds of Splunk queries across 40+ log sources feeding the SIEM</p></li>
+                <li><p>Guided architecture review of cloud deployments against Zero Trust principles,
                 implementing identity-centric access controls across AWS/Azure environments</p></li>
-                <li><p>Developed Infrastructure-as-Code (Terraform/Ansible) to deploy and operate SIEM platforms and log-ingestion pipelines, cloud capabilities, or hardening configurations</p></li>
+                <li><p>Developed Infrastructure-as-Code (Terraform/Ansible) to deploy and operate SIEM platforms
+                and log-ingestion pipelines, cloud capabilities, or hardening configurations, delivering a dozen
+                or more fully configured Splunk SIEM deployments through a process that was previously manual</p></li>
                 <li><p>Led deployments of secure virtual infrastructures and security tools
                 on various cloud and virtualization platforms for new and existing customers</p></li>
                 <li><p>Managed communications, expectations, and project scheduling between government sponsors,
@@ -215,13 +216,16 @@
         <!-- L3Harris -->
         <div class="experience-entry">
             <p>
-                <em>Security Officer &amp; Systems Administrator</em> <span>November 2020 - March 2022</span>
+                <em>Security Engineer &amp; Systems Administrator</em> <span>November 2020 - March 2022</span>
                 <br>
                 L3Harris Technologies - Salt Lake City, UT
             </p>
             <ul>
-                <li><p>Served as Security Officer and Systems Administrator managing security operations across secure DoD networks. Designated Linux SME.</p></li>
-                <li><p>Continued responsibility for DoD network infrastructure security architecture, design, and compliance operations following Risk Management Framework (RMF) and NIST 800-53 standards, including security audits, continuous monitoring, and vulnerability assessment and remediation</p></li>
+                <li><p>Served as Security Engineer and Systems Administrator managing security operations across
+                20+ secure DoD networks and 100+ systems. Designated Linux SME.</p></li>
+                <li><p>Continued responsibility for DoD network infrastructure security architecture, design, and
+                compliance operations following Risk Management Framework (RMF) and NIST 800-53 standards,
+                including security audits, continuous monitoring, and vulnerability assessment and remediation</p></li>
             </ul>
         </div>
 
@@ -236,10 +240,9 @@
                 <li><p>Served as Security Engineer and Systems Administrator for multiple secure
                 Department of Defense (DoD) networks containing Active Directory
                 domains of both Windows and Red Hat Enterprise Linux systems</p></li>
-                <li><p>Architected and deployed secure DoD networks containing servers,
-                workstations, and switches following the Risk Management Framework (RMF)
-                and NIST 800-53 for selection and implementation of security
-                controls</p></li>
+                <li><p>Architected and deployed 10+ secure DoD networks totaling 80+ systems, including servers,
+                workstations, and switches, following the Risk Management Framework (RMF)
+                and NIST 800-53 for selection and implementation of security controls</p></li>
                 <li><p>Utilized continuous monitoring (ConMon) tools to maintain
                 security posture and compliance of systems</p></li>
                 <li><p>Conducted risk and vulnerability assessments, making remediations
@@ -248,6 +251,57 @@
                 delegation of tasking</p></li>
                 <li><p>Developed innovative and efficient processes for automated
                 deployments of physical and virtual IT systems</p></li>
+            </ul>
+        </div>
+
+        <!-- Selected Projects -->
+        <h2>Selected Projects</h2>
+        <hr>
+
+        <div class="experience-entry">
+            <p>
+                <em>BrainFrame</em> <span>ongoing</span>
+                <br>
+                <a href="https://brain-frame.ai">brain-frame.ai</a>
+            </p>
+            <ul>
+                <li><p>Founder and builder of BrainFrame, a private, local-first AI system built around a dedicated
+                edge device: chat, files, automations, alerts, and research running on the owner&rsquo;s own network
+                rather than in a vendor data center</p></li>
+                <li><p>Run small language model inference on NVIDIA Jetson edge hardware, with data sovereignty,
+                privacy, and security as the governing design constraints</p></li>
+                <li><p>Built the surrounding platform: an admin portal for fleet, model, user, and performance
+                management, connected-service tool integrations, and mobile, desktop, web, and watch clients</p></li>
+            </ul>
+        </div>
+
+        <div class="experience-entry">
+            <p>
+                <em>Ironlog</em> <span>ongoing</span>
+                <br>
+                <a href="https://github.com/jake-kelley/ironlog">github.com/jake-kelley/ironlog</a>
+            </p>
+            <ul>
+                <li><p>License-free self-hosted Security Information and Event Management (SIEM) platform built for
+                efficient large-scale log ingestion, shipping with prebuilt NIST 800-53 compliance dashboards</p></li>
+                <li><p>Full open-source stack: Vector agents and aggregators with VRL normalization pipelines,
+                ClickHouse columnar storage, HyperDX log search, Grafana dashboards and alerting, and
+                Keycloak/oauth2-proxy SSO</p></li>
+            </ul>
+        </div>
+
+        <div class="experience-entry">
+            <p>
+                <em>Open-Source Tools and Homelab</em> <span>ongoing</span>
+                <br>
+                <a href="https://jake-kelley.github.io">jake-kelley.github.io</a>
+            </p>
+            <ul>
+                <li><p>Design, direct, and maintain open-source developer and security tooling, including Decurion
+                (a Go binary that turns Claude Code into a coordinated multi-agent team), Portanote (a portable
+                single-binary Markdown notes app), and Scry (instant fuzzy filename search for macOS)</p></li>
+                <li><p>Operate an expansive homelab of virtualized and containerized services across ProxMox (KVM),
+                Hyper-V, VMware, and Docker as the working environment for the above</p></li>
             </ul>
         </div>
 
@@ -263,6 +317,19 @@
             <em>Kennesaw State University</em> <span>August 2013 - December 2017</span>
             <br>
             B.S. in Information Technology<span>Information Assurance and Security Concentration</span>
+        </p>
+
+        <!-- Certifications and Clearance -->
+        <h2>Certifications and Clearance</h2>
+        <hr>
+        <p>
+            <em>Active DoD Top Secret Clearance</em> - held continuously since 2019
+        </p>
+        <p>
+            ISC2 Certified Information Systems Security Professional (CISSP)<br>
+            CompTIA Security+<br>
+            Red Hat Certified System Administrator (RHCSA)<br>
+            Splunk Power User
         </p>
     </div>
 </body>
