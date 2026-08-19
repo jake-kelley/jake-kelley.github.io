@@ -54,7 +54,7 @@ Security Architect and privacy advocate. Technical leader and hands-on builder w
 - Managed small team of six peers, providing technical guidance and delegation of tasking
 - Developed innovative and efficient processes for automated deployments of physical and virtual IT systems
 
-## Selected Projects
+## Projects
 
 ### BrainFrame — [brain-frame.ai](https://brain-frame.ai)
 - Founder and builder of BrainFrame, a private, local-first AI system built around a dedicated edge device: chat, files, automations, alerts, and research running on the owner's own network rather than in a vendor data center
