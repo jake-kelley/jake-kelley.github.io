@@ -57,16 +57,16 @@ Security Architect and privacy advocate. Technical leader and hands-on builder w
 
 ## Selected Projects
 
-### BrainFrame — [brain-frame.ai](https://brain-frame.ai) | ongoing
+### BrainFrame — [brain-frame.ai](https://brain-frame.ai)
 - Founder and builder of BrainFrame, a private, local-first AI system built around a dedicated edge device: chat, files, automations, alerts, and research running on the owner's own network rather than in a vendor data center
 - Run small language model inference on NVIDIA Jetson edge hardware, with data sovereignty, privacy, and security as the governing design constraints
 - Built the surrounding platform: an admin portal for fleet, model, user, and performance management, connected-service tool integrations, and mobile, desktop, web, and watch clients
 
-### Ironlog — [github.com/jake-kelley/ironlog](https://github.com/jake-kelley/ironlog) | ongoing
+### Ironlog — [github.com/jake-kelley/ironlog](https://github.com/jake-kelley/ironlog)
 - License-free self-hosted Security Information and Event Management (SIEM) platform built for efficient large-scale log ingestion, shipping with prebuilt NIST 800-53 compliance dashboards
 - Full open-source stack: Vector agents and aggregators with VRL normalization pipelines, ClickHouse columnar storage, HyperDX log search, Grafana dashboards and alerting, and Keycloak/oauth2-proxy SSO
 
-### Open-Source Tools and Homelab — [jake-kelley.github.io](https://jake-kelley.github.io) | ongoing
+### Open-Source Tools and Homelab — [jake-kelley.github.io](https://jake-kelley.github.io)
 - Design, direct, and maintain open-source developer and security tooling, including Decurion (a Go binary that turns Claude Code into a coordinated multi-agent team), Portanote (a portable single-binary Markdown notes app), and Scry (instant fuzzy filename search for macOS)
 - Operate an expansive homelab of virtualized and containerized services across ProxMox (KVM), Hyper-V, VMware, and Docker as the working environment for the above
 
