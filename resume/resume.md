@@ -50,8 +50,7 @@ Security Architect and privacy advocate. Technical leader and hands-on builder w
 
 - Served as Security Engineer and Systems Administrator for multiple secure Department of Defense (DoD) networks containing Active Directory domains of both Windows and Red Hat Enterprise Linux systems
 - Architected and deployed 10+ secure DoD networks totaling 80+ systems -- servers, workstations, and switches -- following the Risk Management Framework (RMF) and NIST 800-53 for selection and implementation of security controls
-- Utilized continuous monitoring (ConMon) tools to maintain security posture and compliance of systems
-- Conducted risk and vulnerability assessments, making remediations as necessary
+- Utilized continuous monitoring (ConMon) tools to maintain security posture and compliance of systems, conducting risk and vulnerability assessments and remediating as necessary
 - Managed small team of six peers, providing technical guidance and delegation of tasking
 - Developed innovative and efficient processes for automated deployments of physical and virtual IT systems
 
