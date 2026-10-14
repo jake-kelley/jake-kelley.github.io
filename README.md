@@ -1,6 +1,6 @@
 # Jacob Andrew Kelley
 
-Personal website featuring contact information, resume, projects, and curated resources on privacy, security, networking, open-source software, and personal finance.
+Personal website featuring contact information, resume, ventures and projects, and curated resources on privacy, security, networking, open-source software, and personal finance.
 
 🔗 **Live Site:** [jake-kelley.github.io](https://jake-kelley.github.io/)
 
@@ -14,7 +14,7 @@ Personal website featuring contact information, resume, projects, and curated re
 
 [PDF](https://jake-kelley.github.io/resume/jake-kelley-resume.pdf) · [HTML](https://jake-kelley.github.io/resume/resume.html)
 
-## What I'm Building
+## Ventures & Projects
 
 *Things I build and use.*
 
